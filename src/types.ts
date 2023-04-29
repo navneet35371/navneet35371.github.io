@@ -5,6 +5,7 @@ export type ExperienceType = {
     location: string;
     date: string;
     description: string;
+    link: string;
 };
 
 export type ProjectType = {

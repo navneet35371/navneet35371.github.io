@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { WORK_EXP } from "../../../const";
 import { ExperienceType } from "../../../types";
 import { FaHackerrank, FaMicrosoft } from "react-icons/fa";
@@ -44,10 +44,10 @@ const CompanyIcons: {
 };
 
 const Experience: FC<{ experience: ExperienceType }> = ({ experience }) => {
-  const { company, title, description, date, location } = experience;
+  const { company, title, description, date, location, link } = experience;
   return (
     <a
-      href="#"
+      href={link} target="_blank" rel="noopener noreferrer"
       className="relative block overflow-hidden rounded-lg border border-gray-200 p-4 sm:p-6 mb-4"
     >
       <div className="flex justify-between gap-4">
@@ -63,12 +63,6 @@ const Experience: FC<{ experience: ExperienceType }> = ({ experience }) => {
           <span className="h-16 w-16 rounded-lg object-cover shadow-sm">
             <>{CompanyIcons[company]}</>
           </span>
-
-          {/* <img
-            alt="Paul Clapton"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            
-          /> */}
         </div>
       </div>
 

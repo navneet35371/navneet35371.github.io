@@ -1,6 +1,5 @@
-import React from "react";
-import { FaAndroid, FaCss3, FaDocker, FaGit, FaHtml5, FaJava, FaJs, FaLinux, FaMicrosoft, FaPython, FaReact } from "react-icons/fa";
-import { SiDjango, SiGroupon, SiHtml5 , SiTypescript, SiCsswizardry, SiRubyonrails, SiPostgresql, SiMongodb, SiRedis, SiPython} from "react-icons/si";
+import { FaDocker, FaGit, FaJava, FaJs, FaLinux, FaReact } from "react-icons/fa";
+import { SiDjango, SiHtml5 , SiTypescript, SiCsswizardry, SiRubyonrails, SiPostgresql, SiMongodb, SiRedis, SiPython} from "react-icons/si";
 import { Skills } from "../../../const";
 
 const SkillIcons: {

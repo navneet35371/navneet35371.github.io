@@ -1,7 +1,6 @@
-import React from 'react'
 import ProjectList from './components/ProjectList'
 import ExperienceList from './components/ExperienceList'
-import {FaLinkedinIn, FaGithub, FaMediumM, FaStackOverflow, FaTwitter, FaMailBulk, FaEnvelope} from 'react-icons/fa'
+import {FaLinkedinIn, FaGithub, FaMediumM, FaStackOverflow, FaTwitter, FaEnvelope} from 'react-icons/fa'
 import Skill from './components/Skill'
 import { IconContext } from 'react-icons'
 
@@ -21,14 +20,14 @@ const Home = () => {
         </div>
         <div className='h-screen sticky top-0 bg-black flex-1'>
             <div className='flex flex-col items-center lg:items-start p-8 justify-center h-full'>
-                <img className="cursor-pointer w-40 h-40 rounded-full grayscale transition duration-300 delay-150 hover:grayscale-0 hover:delay-300" src='https://avatars.githubusercontent.com/u/4524905?s=400&u=5d8fc9e50768caac53521315ba51afd44d3e5325&v=4'></img>
+                <img className="cursor-pointer w-40 h-40 rounded-full grayscale transition duration-300 delay-150 hover:grayscale-0 hover:delay-300" alt='Navneet suman' src='https://avatars.githubusercontent.com/u/4524905?s=400&u=5d8fc9e50768caac53521315ba51afd44d3e5325&v=4'></img>
                 <div className='text-white font-semibold text-2xl mt-4'>Navneet Suman</div>
                 <div className='text-gray-200 font-semibold text-lg mt-2'>Full Stack Developer</div>
                 <div className='flex flex-row mt-4'>
                     {
                         emoji.map((e, i) => {
                             return (
-                                <div className={'flex w-8 h-8 rounded-full items-center text-2xl mr-1' + (i == 0 ? '' : '')}  key={i}>{e}</div>
+                                <div className={'flex w-8 h-8 rounded-full items-center text-2xl mr-1' + (i === 0 ? '' : '')}  key={i}>{e}</div>
                             )
                         })
                     }

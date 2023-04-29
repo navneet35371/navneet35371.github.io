@@ -7,6 +7,7 @@ export const WORK_EXP: ExperienceType[] = [
         date: 'Mar-2021 - Present',
         description: 'Build shared components/features to be used across office apps. Worked as a shield owner for the shared UX components.',
         location: 'Bengaluru, India',
+        link: 'https://www.microsoft.com/en-in',
         id:1
     },
     {
@@ -15,6 +16,7 @@ export const WORK_EXP: ExperienceType[] = [
         date: 'May 2018 – Jan 2021',
         description: 'Lead the UI Team for the revamp of support and contact us flow for merchants using ReactJS. Revamped internal deal management tool read/update performance to around 8x.',
         location: 'Bengaluru, India',
+        link: 'https://www.groupon.com/',
         id:2
     },
     {
@@ -23,6 +25,7 @@ export const WORK_EXP: ExperienceType[] = [
         date: 'Dec 2015 - May 2018',
         description: 'Lead the product design and development on client side for intutel.com.',
         location: 'Bengaluru, India',
+        link: 'https://www.intutel.com/',
         id:3
     },
     {
@@ -31,6 +34,7 @@ export const WORK_EXP: ExperienceType[] = [
         date: 'Jan 2015 - Nov 2015',
         description: 'Part of the team that created Restful apis for shine.com using Django. Build the client-side code using angularjs integrating the restful apis.',
         location: 'Gurgaon, India',
+        link: 'https://www.shine.com/',
         id:4
     },
     {
@@ -39,6 +43,7 @@ export const WORK_EXP: ExperienceType[] = [
         date: 'May 2014 - July 2014',
         description: 'Implemented the gamificaton for hackerrank.com',
         location: 'Bengaluru, India',
+        link: 'https://www.hackerrank.com/',
         id:5
     },
 ]

@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Projects } from "../../../const";
 import { ProjectType } from "../../../types";
 
 const Project: FC<{ project: ProjectType }> = (props) => {
-  const { title, description, link, tech } = props.project;
+  const { title, description, tech } = props.project;
 
   return (
     <div className=" overflow-hidden border rounded-xl p-0.5 mb-4">

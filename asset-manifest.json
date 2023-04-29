@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/navneet35371.github.io/static/css/main.b2aa01c1.css",
-    "main.js": "/navneet35371.github.io/static/js/main.0eface0c.js",
-    "static/js/787.e8c6061e.chunk.js": "/navneet35371.github.io/static/js/787.e8c6061e.chunk.js",
-    "index.html": "/navneet35371.github.io/index.html",
-    "main.b2aa01c1.css.map": "/navneet35371.github.io/static/css/main.b2aa01c1.css.map",
-    "main.0eface0c.js.map": "/navneet35371.github.io/static/js/main.0eface0c.js.map",
-    "787.e8c6061e.chunk.js.map": "/navneet35371.github.io/static/js/787.e8c6061e.chunk.js.map"
+    "main.css": "/static/css/main.b2aa01c1.css",
+    "main.js": "/static/js/main.fd1d9c70.js",
+    "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
+    "index.html": "/index.html",
+    "main.b2aa01c1.css.map": "/static/css/main.b2aa01c1.css.map",
+    "main.fd1d9c70.js.map": "/static/js/main.fd1d9c70.js.map",
+    "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2aa01c1.css",
-    "static/js/main.0eface0c.js"
+    "static/js/main.fd1d9c70.js"
   ]
 }

@@ -126,4 +126,8 @@ export const Skills = [
         name: 'Java',
         level: 80
     },
+    {
+        name: 'NodeJS',
+        level: 80
+    },
 ]

@@ -52,9 +52,9 @@ const Experience: FC<{ experience: ExperienceType }> = ({ experience }) => {
     >
       <div className="flex justify-between gap-4">
         <div>
-          <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
+          <p className="text-lg font-bold text-gray-900 sm:text-xl">
             {company}
-          </h3>
+          </p>
 
           <p className="mt-1 text-xs font-medium text-gray-600">{title}</p>
         </div>

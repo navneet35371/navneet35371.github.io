@@ -1,4 +1,4 @@
-import { FaDocker, FaGit, FaJava, FaJs, FaLinux, FaReact } from "react-icons/fa";
+import { FaDocker, FaGit, FaJava, FaJs, FaLinux, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiDjango, SiHtml5 , SiTypescript, SiCsswizardry, SiRubyonrails, SiPostgresql, SiMongodb, SiRedis, SiPython} from "react-icons/si";
 import { Skills } from "../../../const";
 
@@ -19,7 +19,8 @@ const SkillIcons: {
     "Postgres": <SiPostgresql size={48}/>,
     "MongoDB": <SiMongodb size={48}/>,
     "Redis": <SiRedis size={48}/>,
-    "Java": <FaJava size={48}></FaJava>
+    "Java": <FaJava size={48}></FaJava>,
+    "NodeJS": <FaNodeJs size={48}></FaNodeJs>
 };
 
 const Skill = () => {

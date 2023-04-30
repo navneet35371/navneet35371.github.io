@@ -41,32 +41,32 @@ const Home = () => {
                         <IconContext.Provider value={{ className: "linkIcon" }}>
 
                             <div className='w-8 h-8'>
-                                <a href='https://www.linkedin.com/in/navneet-suman/' rel="noreferrer" target='_blank'>
+                                <a href='https://www.linkedin.com/in/navneet-suman/' aria-label='Linkedin Link' rel="noreferrer" target='_blank'>
                                     <FaLinkedinIn size={24} />
                                 </a>
                             </div>
                             <div className='w-8 h-4'>
-                                <a href='https://github.com/navneet35371' rel="noreferrer" target='_blank'>
+                                <a href='https://github.com/navneet35371' aria-label='Github Link' rel="noreferrer" target='_blank'>
                                     <FaGithub size={24}/>
                                 </a>
                             </div>
                             <div className='w-8 h-4'>
-                                <a href='https://medium.com/@navneetsuman' rel="noreferrer" target='_blank'>
+                                <a href='https://medium.com/@navneetsuman' aria-label='Medium Link' rel="noreferrer" target='_blank'>
                                     <FaMediumM size={24} />
                                 </a>
                             </div>
                             <div className='w-8 h-4'>
-                                <a href='https://stackoverflow.com/users/2439751/navneet' rel="noreferrer" target='_blank'>
+                                <a href='https://stackoverflow.com/users/2439751/navneet' aria-label='Stackoverflow Link' rel="noreferrer" target='_blank'>
                                 <FaStackOverflow size={24} />
                                 </a>
                             </div>
                             <div className='w-8 h-4'>
-                                <a href='https://twitter.com/navneetsuman_' rel="noreferrer" target='_blank'>
+                                <a href='https://twitter.com/navneetsuman_' aria-label='Twitter Link' rel="noreferrer" target='_blank'>
                                 <FaTwitter size={24} />
                                 </a>
                             </div>
                             <div className='w-4 h-4'>
-                                <a href='mailto:navneet35371@gmail.com' rel="noreferrer" target='_blank'>
+                                <a href='mailto:navneet35371@gmail.com' aria-label='Email' rel="noreferrer" target='_blank'>
                                 <FaEnvelope size={24} />
                                 </a>
                             </div>

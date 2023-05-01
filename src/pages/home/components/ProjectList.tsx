@@ -8,7 +8,7 @@ const Project: FC<{ project: ProjectType }> = (props) => {
   return (
     <div className=" overflow-hidden border rounded-xl p-0.5 mb-4">
       <div className="rounded-[10px] bg-white p-4 pt-8 sm:p-6">
-        <h3 className="text-lg font-medium text-gray-900">{title}</h3>
+        <p className="text-lg font-medium text-gray-900">{title}</p>
         <p className="mt-0.5">{description}</p>
 
         <div className="mt-4 flex flex-wrap gap-1">

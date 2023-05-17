@@ -12,7 +12,7 @@ const Home = () => {
         <div className='w-full lg:w-4/6 p-8 md:p-16'>
           <h1 className='text-lg'>Hi, I'm <span className='font-semibold'>Navneet suman</span></h1>
           <p className='text-black font-semibold text-2xl lg:text-4xl mt-6 mb-6'>Full stack product engineer with 7 years' experience. 
-            Built robust and innovative solutions for Top product companies, a leading marketing company and a SaaS recruitment platform provider.
+            Built robust and innovative solutions with optimal user experiences for top product companies.
           </p>
           <ExperienceList></ExperienceList>
           <ProjectList></ProjectList>

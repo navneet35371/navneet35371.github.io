@@ -30,14 +30,14 @@ const Project: FC<{ project: ProjectType }> = (props) => {
 
 const ProjectList = () => {
   return (
-    <>
+    <div className="my-8">
       <div className="text-xl font-semibold">Projects</div>
       <div className="columns-1 md:columns-2 gap-8 mt-4">
         {Projects.map((project, i) => {
           return <Project key={i} project={project}></Project>;
         })}
       </div>
-    </>
+    </div>
   );
 };
 

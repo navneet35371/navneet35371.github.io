@@ -46,15 +46,14 @@ const CompanyIcons: {
 const Experience: FC<{ experience: ExperienceType }> = ({ experience }) => {
   const { company, title, description, date, location, link } = experience;
   return (
-    <a
-      href={link} target="_blank" rel="noopener noreferrer"
+    <div
       className="relative block overflow-hidden rounded-lg border border-gray-200 p-4 sm:p-6 mb-4"
     >
       <div className="flex justify-between gap-4">
         <div>
-          <p className="text-lg font-bold text-gray-900 sm:text-xl">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-gray-900 sm:text-xl">
             {company}
-          </p>
+          </a>
 
           <p className="mt-1 text-xs font-medium text-gray-600">{title}</p>
         </div>
@@ -80,20 +79,20 @@ const Experience: FC<{ experience: ExperienceType }> = ({ experience }) => {
           <dd className="text-xs text-gray-500">{location}</dd>
         </div>
       </dl>
-    </a>
+    </div>
   );
 };
 
 const ExperienceList = () => {
   return (
-    <>
+    <div className="my-8">
       <div className="text-xl font-semibold">Experiences</div>
       <div className="columns-1 md:columns-2 gap-8 mt-4">
         {WORK_EXP.map((e, i) => {
           return <Experience key={i} experience={e}></Experience>;
         })}
       </div>
-    </>
+    </div>
   );
 };
 

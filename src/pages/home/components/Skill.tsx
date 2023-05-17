@@ -1,5 +1,5 @@
 import { FaDocker, FaGit, FaJava, FaJs, FaLinux, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiDjango, SiHtml5 , SiTypescript, SiCsswizardry, SiRubyonrails, SiPostgresql, SiMongodb, SiRedis, SiPython} from "react-icons/si";
+import { SiDjango, SiHtml5 , SiTypescript, SiCsswizardry, SiRubyonrails, SiPostgresql, SiMongodb, SiRedis, SiPython, SiJavascript} from "react-icons/si";
 import { Skills } from "../../../const";
 
 const SkillIcons: {
@@ -7,7 +7,7 @@ const SkillIcons: {
 } = {
     "Python": <SiPython size={48} />,
     "React": <FaReact size={48} />,
-    "JavaScript": <FaJs size={48} />,
+    "JavaScript": <SiJavascript size={48} />,
     "TypeScript": <SiTypescript size={48} />,
     "HTML": <SiHtml5 size={48} />,
     "CSS": <SiCsswizardry size={48} />,
@@ -25,19 +25,18 @@ const SkillIcons: {
 
 const Skill = () => {
   return (
-    <>
+    <div className="my-8">
       <div className="text-xl font-semibold">Skills</div>
-      <div className="flex flex-row flex-wrap mt-4">
+      <div className="flex flex-row flex-wrap my-4">
         {Skills.map((skill, i) => {
-            return <div className="flex m-2 items-center justify-center w-16 h-16" key={i}>
+            return <div className="flex m-2 my-4 items-center justify-center w-16 h-16" key={i}>
                 <span>
                     {SkillIcons[skill.name]} <p className="text-sm text-center">{skill.name}</p>
                 </span>
             </div>
         })}
-      </div>
-      
-    </>
+      </div>      
+    </div>
   );
 };
 
